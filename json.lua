@@ -113,7 +113,7 @@ local function encode_number(val)
     return string.format("%d", val) -- Format as an integer
   else
   -- Use 20 significant digits for non-integer numbers
-	return string.format("%.20g", val)
+  return string.format("%.20g", val)
 end
 
 
